@@ -11,8 +11,8 @@ string line = "-----------------------";
 
 // Instantiating the board.
 Board board = Board();
-Player player1 = Player("Raydelto", "x");
-Player player2 = Player("Mikhael", "o");
+Player player1 = Player("Jugador 1", "x");
+Player player2 = Player("Jugador 2", "o");
 
 Tourneuse tourneuse = Tourneuse(player1, player2);
 
